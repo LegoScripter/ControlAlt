@@ -431,7 +431,7 @@ if _G.CheckForDeath then
 end
 
 -- // God Mode
-if _G.GodMode and originalrig:FindFirstChild("Neck",true) then wait(game.Players.RespawnTime + 1); originalrig:FindFirstChild("Neck",true).Parent = nil keepinplace = false end
+if _G.GodMode and originalrig:FindFirstChild("Neck",true) then wait(game.Players.RespawnTime + 0.1); originalrig:FindFirstChild("Neck",true).Parent = nil keepinplace = false end
 
 if rigtype == Enum.HumanoidRigType.R15 and _G.R15toR6 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fgewfwefewfewhiuyf7h8gewhguiyewhg/Animate/main/Source"))()
